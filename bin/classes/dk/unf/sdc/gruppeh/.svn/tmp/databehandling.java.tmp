@@ -1,0 +1,26 @@
+package dk.unf.sdc.gruppeh;
+
+public class databehandling {
+	
+	protected void saveWorkTime(String date, int minInAll) {
+		// Gemmer arbejdstid til HDD
+	}
+	
+	protected void readAllWorkTimes() {
+		//for loop der kører readworktime for at læse en af gangen
+	}
+
+	protected String readWorkTime() {
+		//læser en arbejdstid.
+		return ""; //returner nyeste arbejdstid
+	}
+	
+	protected void saveStartLog(String date, String time) {
+		
+	}
+	
+	protected String readStartLog() {
+		
+		return ""; //returner starttidspunktet
+	}
+}
